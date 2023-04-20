@@ -1,0 +1,35 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid ;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: aqua;
+}
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+#restartBtn
+{
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    font-family: "Permanent Marker", cursive;
+    cursor: pointer;
+}
+#body
+{
+    background:linear-gradient(45deg,white,yellow);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
